@@ -2,13 +2,15 @@ package software.reuse.app;
 
 import javax.swing.*;
 import javax.swing.border.TitledBorder;
-import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
 import java.net.BindException;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -25,6 +27,14 @@ public class Server {
    // private JTextField jtf_maxnum;
     private JTextField jtf_port;
     private JTextField jtf_message;
+
+
+
+
+
+
+
+
 
     private JButton jb_start;
     private JButton jb_stop;
